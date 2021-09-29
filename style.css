@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --primary-color: #F1F1EF;
+    --secondary-color: #34421E;
+    --temp-color: #C19434;
+}
+body{
+    background-color: var(--primary-color);
+    color: var(--temp-color);
+}
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+label{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
+.quiz{
+    display: inline;
+    
+}
+p{
+    font-weight: bold;
+    color: black;
+}
+.navigation{
+    background-color: var(--secondary-color);
+    height: 4rem;
+    text-align: center;
+    padding-top: 2rem;
+    
+}
+a{
+    text-decoration: none;
+    color: var(--temp-color);
+    padding-right: 2rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    
+}
+.nav-links{
+    margin-top: 2rem;
+    display: inline;
+}
+
+#is-triangle-btn{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+#hypotenuse-btn,#submit-btn,#is-triangle-btn{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    color: var(--temp-color);
+    background-color: var(--secondary-color);
+    padding: 0.8rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+}
+#output-Box{
+    
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
