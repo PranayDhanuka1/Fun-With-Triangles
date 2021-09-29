@@ -6,7 +6,7 @@ submitBtn.addEventListener('click', calculateAreaOfTriangle)
 
 function calculateAreaOfTriangle(){
     var area = areaOfTriangle(base,height);
-    outputBox.innerText = "The area of triangle is " + area
+    outputBox.innerText = "The area of triangle is " + area;
     
 }
 
